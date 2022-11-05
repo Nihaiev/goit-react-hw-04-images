@@ -11,7 +11,6 @@ import Button from './Button/Button';
 const API_KEY = '29858730-85e730a71c342987ae32faddc';
 const URL = 'https://pixabay.com/api/';
 
-
 export default function App() {
   const [pictures, setPictures] = useState([]);
   const [page, setPage] = useState(1);
