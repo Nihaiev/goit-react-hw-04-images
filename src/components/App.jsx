@@ -8,7 +8,7 @@ import ImageGallery from './ImageGallery/ImageGallery';
 import Loader from './Loader/Loader';
 import Button from './Button/Button';
 
-const API_KEY = '29858730-85e730a71c342987ae32faddc';
+const API_KEY = process.env.REACT_APP_API_KEY;
 const URL = 'https://pixabay.com/api/';
 
 export default function App() {
